@@ -11,7 +11,7 @@ from transformers import AutoTokenizer
 
 from huggingface_hub import login
 
-login(token="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")
+
 
 load_dotenv()
 groqAPI = os.getenv("GROK_API_KEY")
