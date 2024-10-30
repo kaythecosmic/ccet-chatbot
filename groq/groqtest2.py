@@ -107,6 +107,7 @@ for idx, fileName in enumerate(inputFilesList):
     with open(inputFilePath, mode="r", encoding="utf-8") as inputFile:
         doc = inputFile.read()
 
+    output = ""
     if doc is not None:
         try:
             output = getFromGroq(doc)
