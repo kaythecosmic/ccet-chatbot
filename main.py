@@ -61,10 +61,6 @@ dataset = DatasetDict({
 
 print(dataset)
 
-
-
-# !huggingface-cli login --token "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" --add-to-git-credential
-
 def initModelAndTokenizer(modelID: str):
 
     model = AutoModelForCausalLM.from_pretrained(
